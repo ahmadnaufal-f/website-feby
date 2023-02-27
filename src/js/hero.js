@@ -3,7 +3,7 @@ import heroPng from '../res/header.png'
 
 function Hero() {
     return (
-        <Container className='container-md d-flex flex-column align-items-center'>
+        <Container className='d-flex flex-column align-items-center container-custom-bg'>
             <div className='web-title'>Liska Feby</div>
             <div className='web-subtitle'>Reveal your best skin with trusted reviews</div>
             <div className='hero-image'>

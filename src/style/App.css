@@ -12,6 +12,7 @@
     --white: #ffffff;
     --bg-default: #f1f2f3;
     --pink-dark: #A95A63;
+    --pink-darker: #863e47;
     --pink-bright-1: #E1CADE;
     --pink-bright-2: #ece8ec; 
     --pink-selected: #6A2E56;
@@ -22,9 +23,25 @@
     --gray: #ece8ec99;
 }
 
+body {
+  background-color: var(--bg-default);
+}
+
 header {
   max-width: 800px;
   margin: auto;
+}
+
+.navbar-toggler {
+  border: unset;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-brand {
+  margin-inline-start: .75rem;
 }
 
 .navbar-custom {
@@ -65,6 +82,7 @@ header {
 }
 
 .nav-link:last-of-type {
+  margin-inline-start: auto;
   color: var(--green-darker);
 }
 
@@ -76,6 +94,16 @@ header {
   align-items: center;
   gap: 30px;
   width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-nav {
+    gap: 5px;
+  }
+
+  .nav-link:last-of-type {
+    margin-inline-start: unset;
+  }
 }
 
 .badge.badge-custom {
@@ -91,9 +119,15 @@ header {
   position: fixed;
   z-index: -1;
   width: calc(100% + 50px);
+  transform: translateY(0) scale(1);
+  transition: transform 0.25s ease-out;
   left: -50px;
   overflow: hidden;
   background-color: var(--bg-default);
+}
+
+.wx-background.collapsed {
+  transform: translateY(100px) scale(1.4);
 }
 
 .wx-background > img {
@@ -125,9 +159,9 @@ header {
 .web-subtitle {
   font-family: 'montserrat';
   font-weight: 700;
-  font-size: 15px;
+  font-size: 14px;
   text-align: center;
-  color: var(--pink-dark);
+  color: var(--pink-darker);
 }
 
 .hero-image {

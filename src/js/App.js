@@ -11,7 +11,7 @@ class App extends React.Component {
   render() {
     return (
       <div className='web-root'>
-        <div className="wx-background">
+        <div id='wx-background' className="wx-background">
           <img
             src={bg}
             alt="background"
