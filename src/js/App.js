@@ -6,6 +6,7 @@ import MyNavbar from './navbar';
 import React from 'react';
 import bg from '../res/background.svg'
 import Hero from './hero';
+import AboutCard from './Card-about';
 
 class App extends React.Component {
   render() {
@@ -19,6 +20,8 @@ class App extends React.Component {
         </div>
         <MyNavbar />
         <Hero />
+        <AboutCard />
+        <div style={{ height: '1000px' }}></div>
       </div>
     );
   }
