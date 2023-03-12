@@ -1,26 +1,17 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/App.css';
-// import './style/custom.scss';
-// import { Button } from 'react-bootstrap';
-import MyNavbar from './navbar';
+import Header from './components/header/header';
 import React from 'react';
-import bg from '../res/background.svg'
-import Hero from './hero';
-import AboutCard from './Card-about';
+import Hero from './containers/hero/hero';
+import Intro from './containers/intro/intro';
 
 class App extends React.Component {
   render() {
     return (
       <div className='web-root'>
-        <div id='wx-background' className="wx-background">
-          <img
-            src={bg}
-            alt="background"
-          />
-        </div>
-        <MyNavbar />
+        <Header />
         <Hero />
-        <AboutCard />
+        <Intro />
         <div style={{ height: '1000px' }}></div>
       </div>
     );
