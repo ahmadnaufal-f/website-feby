@@ -14,8 +14,8 @@ function Intro() {
         <Fade className='card-about-bg'>
             <div className='card-about'>
                 <div className='about-wrapper'>
-                    <Slide className='about-caption'>Hi Beauty Enthusiast!</Slide>
-                    <Slide className='about-description'>I am a reviewer for skin care and make up products. Let's get to know me and boost your brand selling with me.</Slide>
+                    <Slide className='about-caption'>Hi, I am Feby!</Slide>
+                    <Slide className='about-description'>I am here to help you to increase your product's visibility in the competitive beauty market. Let's work together to elevate your brand and take your skincare products to the next level.</Slide>
                 </div>
                 <Zoom className='swiper-container'>
                     <Carousel pics={picArr}></Carousel>
