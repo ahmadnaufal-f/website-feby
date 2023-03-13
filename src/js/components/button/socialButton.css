@@ -1,0 +1,38 @@
+.social-media-div {
+    font-size: 2em;
+}
+
+.icon-button i {
+    color: var(--bg-default);
+    border-radius: 2.2rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.1rem;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 2.2rem;
+    transition: 0.2s ease-in;
+}
+
+.instagram i {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    border: 1px solid var(--pink-dark);
+}
+
+.tiktok i {
+    background: black;
+}
+
+/* Hover Transition */
+.instagram i:hover,
+.tiktok i:hover {
+    background: var(--pink-darker);
+    transition: all 0.3s ease 0s;
+    transform: translateY(-3px);
+}

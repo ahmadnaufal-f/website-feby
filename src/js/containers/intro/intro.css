@@ -3,6 +3,8 @@
     position: relative;
     height: fit-content;
     background: linear-gradient(180deg, var(--pink-bright-1) 0%, var(--pink-bright-2) 100%);
+    border-bottom: 2px solid var(--pink-bright-1);
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 .card-about {
@@ -23,16 +25,31 @@
 }
 
 .about-caption {
-    font-size: 36px;
+    font-size: 44px;
     font-weight: 700;
     line-height: 44px;
-    margin-block-end: 12px;
+    margin-block-end: 18px;
     color: var(--pink-darker);
 }
 
 .about-description {
     color: var(--text-color);
     padding-inline-end: 12px;
+    margin-block-end: 14px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+.separator-line {
+    min-width: 1px;
+    height: 20px;
+    background-color: var(--pink-darker);
+    margin-inline-end: 4px;
 }
 
 .swiper-container {
@@ -49,6 +66,10 @@
     .about-wrapper .swiper-container {
         flex: 100%;
         max-width: 100%;
+    }
+
+    .about-caption {
+        font-size: 36px;
     }
 
     .about-wrapper {
