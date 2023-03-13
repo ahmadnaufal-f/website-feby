@@ -7,7 +7,7 @@ export default function socialButton({ items }) {
     <>
       {items.map((value, index) => {
         return (
-          <Fade delay={600} triggerOnce={true}>
+          <Fade delay={600} triggerOnce={true} key={index}>
             <a
               href={value.href}
               className={value.className}

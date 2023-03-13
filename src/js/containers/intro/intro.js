@@ -38,7 +38,7 @@ function Intro() {
             competitive beauty market. Let's work together to elevate your brand
             and take your skincare products to the next level.
           </Slide>
-          <div triggerOnce={true} className="button-container">
+          <div className="button-container">
             <Button href={waHref} text={contactString} newTab={true}></Button>
             <div className="separator-line"></div>
             <SocialButton items={socialItems}></SocialButton>

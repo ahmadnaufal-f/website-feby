@@ -32,7 +32,7 @@
 /* Hover Transition */
 .instagram i:hover,
 .tiktok i:hover {
-    background: var(--pink-darker);
+    background: var(--green);
     transition: all 0.3s ease 0s;
     transform: translateY(-3px);
 }

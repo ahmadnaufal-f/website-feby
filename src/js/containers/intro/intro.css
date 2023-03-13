@@ -30,12 +30,14 @@
     line-height: 44px;
     margin-block-end: 18px;
     color: var(--pink-darker);
+    font-family: 'montserrat';
 }
 
 .about-description {
     color: var(--text-color);
     padding-inline-end: 12px;
     margin-block-end: 14px;
+    font-family: 'montserrat';
 }
 
 .button-container {

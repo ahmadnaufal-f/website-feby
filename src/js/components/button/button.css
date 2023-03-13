@@ -14,6 +14,7 @@
     cursor: pointer;
     transition: all 0.3s ease-in-out 0s;
     margin-inline-end: 6px;
+    font-family: 'montserrat';
 }
 
 .main-button:hover {
@@ -37,8 +38,7 @@
 @media (max-width: 768px) {
     .main-button {
         font-size: 0.938rem;
-        padding: 12px 18px;
-        margin-right: 0px;
+        padding: 8px 14px;
     }
 }
 
