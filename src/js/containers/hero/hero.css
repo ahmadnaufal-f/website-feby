@@ -11,10 +11,6 @@
     background-color: var(--bg-default);
 }
 
-.wx-background.collapsed {
-    transform: translateY(100px) scale(1.4);
-}
-
 .wx-background>img {
     width: 1080px;
     height: 540px;
