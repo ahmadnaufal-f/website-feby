@@ -59,6 +59,7 @@
     background: linear-gradient(120deg, rgb(255, 174, 145) 30%, coral 88%,
             bisque 40%, rgb(255, 185, 160) 78%);
     transform: rotateY(180deg);
+    border: 1px solid var(--pink-dark);
 }
 
 .flip-card-back>img {
@@ -70,7 +71,7 @@
 @media screen and (max-width: 992px) {
     .flip-card {
         width: 320px;
-        height: 200px;
+        height: 180px;
     }
 
     /* .flip-card:hover .flip-card-inner {

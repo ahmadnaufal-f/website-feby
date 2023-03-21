@@ -10,7 +10,7 @@
 .card-about {
     max-width: 840px;
     margin: 0 auto;
-    padding: 18px 20px 47px;
+    padding: 18px 36px 47px;
     display: flex;
     flex-wrap: wrap;
     row-gap: 24px;
@@ -76,6 +76,10 @@
 
     .about-wrapper {
         min-width: 240px;
+    }
+
+    .button-container {
+        gap: 6px;
     }
 }
 

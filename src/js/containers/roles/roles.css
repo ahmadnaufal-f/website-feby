@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 992px) {
     .roles-container {
-        row-gap: 12px;
+        row-gap: 18px;
         flex-direction: column;
         flex-wrap: wrap;
     }
