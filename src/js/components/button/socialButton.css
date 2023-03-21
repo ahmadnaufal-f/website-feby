@@ -22,7 +22,7 @@
 
 .instagram i {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    border: 1px solid var(--pink-dark);
+    border: unset;
 }
 
 .tiktok i {
@@ -32,7 +32,9 @@
 /* Hover Transition */
 .instagram i:hover,
 .tiktok i:hover {
-    background: var(--green);
+    border: 1px solid var(--green);
+    background: radial-gradient(circle at 30% 107%, #eafbf6 0%, #d0ece5 90%);
+    color: var(--green);
     transition: all 0.3s ease 0s;
     transform: translateY(-3px);
 }

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b3d22762.css",
-    "main.js": "/static/js/main.e3c46fb0.js",
+    "main.css": "/static/css/main.7132867c.css",
+    "main.js": "/static/js/main.b1dbff93.js",
     "static/js/787.d1d4a2c2.chunk.js": "/static/js/787.d1d4a2c2.chunk.js",
     "static/media/header.png": "/static/media/header.4549830a74a736633b46.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
@@ -10,15 +10,19 @@
     "static/media/about-carousel-4.jpg": "/static/media/about-carousel-4.aeaaa67b2d1e907ff8e8.jpg",
     "static/media/about-carousel-3.jpg": "/static/media/about-carousel-3.59fb97730f58efeb6981.jpg",
     "static/media/MrDafoe-Regular.ttf": "/static/media/MrDafoe-Regular.76557091b77fecfd9411.ttf",
+    "static/media/dermies.png": "/static/media/dermies.56cabc46fd4e2320202b.png",
+    "static/media/everwhite.png": "/static/media/everwhite.564119a72db065d44c2c.png",
+    "static/media/joylab.png": "/static/media/joylab.41a3190183a722643d0f.png",
+    "static/media/azarine.png": "/static/media/azarine.44b386f844d475857a23.png",
     "static/media/background.svg": "/static/media/background.2fdd20a51f805a51206c28bc8bd8b1b9.svg",
     "index.html": "/index.html",
     "static/media/icon.svg": "/static/media/icon.31954dafd4607c144192a7fba352beb2.svg",
-    "main.b3d22762.css.map": "/static/css/main.b3d22762.css.map",
-    "main.e3c46fb0.js.map": "/static/js/main.e3c46fb0.js.map",
+    "main.7132867c.css.map": "/static/css/main.7132867c.css.map",
+    "main.b1dbff93.js.map": "/static/js/main.b1dbff93.js.map",
     "787.d1d4a2c2.chunk.js.map": "/static/js/787.d1d4a2c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3d22762.css",
-    "static/js/main.e3c46fb0.js"
+    "static/css/main.7132867c.css",
+    "static/js/main.b1dbff93.js"
   ]
 }

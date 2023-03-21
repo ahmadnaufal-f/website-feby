@@ -20,7 +20,7 @@
 .web-title {
     margin-block-start: .5rem;
     font-family: 'dafoe';
-    font-size: 76px;
+    font-size: 96px;
     text-align: center;
     color: var(--pink-dark);
     position: relative;
@@ -40,9 +40,19 @@
 .web-subtitle {
     font-family: 'montserrat';
     font-weight: 700;
-    font-size: 14px;
+    font-size: 18px;
     text-align: center;
     color: var(--pink-darker);
+}
+
+@media screen and (max-width: 992px) {
+    .web-title {
+        font-size: 76px;
+    }
+
+    .web-subtitle {
+        font-size: 14px;
+    }
 }
 
 .hero-image {

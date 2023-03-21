@@ -1,12 +1,14 @@
 .main-button {
-    background-color: var(--green);
+    background-image: linear-gradient(to right, #71a396, #2e6b59, #eafbf6, #d0ece5);
+    background-size: 300% 100%;
     border: solid 1px var(--green-darker);
     color: var(--bg-default);
     font-weight: 700;
     width: max-content;
-    padding: 8px 14px;
+    padding: 8px 18px;
+    cursor: pointer;
     text-transform: uppercase;
-    border-radius: 8px;
+    border-radius: 12px;
     text-align: center;
     text-decoration: none;
     display: block;
@@ -18,9 +20,8 @@
 }
 
 .main-button:hover {
-    background-color: var(--bg-default);
+    background-position: 100% 0;
     color: var(--green);
-    transition: all 0.3s ease 0s;
     transform: translateY(-3px);
 }
 
