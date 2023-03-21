@@ -1,7 +1,7 @@
 .roles-text {
     font-family: "montserrat";
     font-size: 24px;
-    color: var(--pink-darker);
+    color: var(--text-color);
     margin: 0 auto;
     text-align: center;
 }
