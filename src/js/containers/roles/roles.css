@@ -1,0 +1,27 @@
+.roles-text {
+    font-family: "montserrat";
+    font-size: 24px;
+    color: var(--pink-darker);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.roles-text.bold {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.roles-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    column-gap: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .roles-container {
+        row-gap: 12px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

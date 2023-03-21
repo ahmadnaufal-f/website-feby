@@ -37,4 +37,5 @@
     color: var(--green);
     transition: all 0.3s ease 0s;
     transform: translateY(-3px);
+    border-radius: 12px;
 }

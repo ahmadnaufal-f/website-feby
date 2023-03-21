@@ -6,7 +6,7 @@ function Brands() {
     const heightArray = [42, 35, 28, 53, 48, 50, 77, 89];
 
     return (
-        <>
+        <div className="section-wrapper">
             <Slide triggerOnce={true} className="d-flex">
                 <div className="brands-text-container">
                     <div className="brands-row-1 d-flex flex-direction-row align-items-center">
@@ -23,7 +23,7 @@ function Brands() {
                     })}
                 </div>
             </Zoom>
-        </>
+        </div>
     );
 }
 

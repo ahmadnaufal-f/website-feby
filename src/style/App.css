@@ -1,38 +1,43 @@
 @font-face {
-  font-family: 'dafoe';
-  src: url('../res/MrDafoe-Regular.ttf') format('truetype');
+    font-family: 'dafoe';
+    src: url('../res/MrDafoe-Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'montserrat';
-  src: url('../res/Montserrat-Regular.ttf') format('truetype');
+    font-family: 'montserrat';
+    src: url('../res/Montserrat-Regular.ttf') format('truetype');
 }
 
 :root {
-  --white: #ffffff;
-  --bg-default: #f1f2f3;
-  --pink-dark: #A95A63;
-  --pink-darker: #863e47;
-  --pink-bright-1: #E1CADE;
-  --pink-bright-2: #ece8ec;
-  --pink-selected: #6A2E56;
-  --text-color: #171b17;
-  --subtext-color: #414141;
-  --green: #4e8375;
-  --green-darker: #2e6b59;
-  --green-border: #245849;
-  --gray: #ece8ec99;
-  --transparent: rgba(0, 0, 0, 0);
+    --white: #ffffff;
+    --bg-default: #f1f2f3;
+    --pink-dark: #A95A63;
+    --pink-darker: #863e47;
+    --pink-bright-1: #E1CADE;
+    --pink-bright-2: #ece8ec;
+    --pink-selected: #6A2E56;
+    --text-color: #171b17;
+    --subtext-color: #414141;
+    --green: #4e8375;
+    --green-darker: #2e6b59;
+    --green-border: #245849;
+    --gray: #ece8ec99;
+    --transparent: rgba(0, 0, 0, 0);
 }
 
 body {
-  background-color: var(--bg-default);
+    background-color: var(--bg-default);
 }
 
 .hide {
-  opacity: 0 !important;
+    opacity: 0 !important;
 }
 
 .container-custom-bg {
-  position: relative;
+    position: relative;
+}
+
+.section-wrapper {
+    margin-block: 46px;
+    padding-inline: 16px;
 }
