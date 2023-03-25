@@ -3,6 +3,7 @@ import Hero from "../hero/hero";
 import Intro from "../intro/intro";
 import Brands from "../brands/brands";
 import Roles from "../roles/roles";
+import Points from "../points/points";
 
 function Main() {
     return (
@@ -12,7 +13,7 @@ function Main() {
             <Intro />
             <Brands />
             <Roles />
-            <div style={{ height: "1000px" }}></div>
+            <Points />
         </>
     );
 }

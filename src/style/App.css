@@ -17,7 +17,7 @@
     --pink-bright-2: #ece8ec;
     --pink-selected: #6A2E56;
     --text-color: #171b17;
-    --subtext-color: #414141;
+    --subtext-color: #6b6b6b;
     --green: #4e8375;
     --green-darker: #2e6b59;
     --green-border: #245849;
@@ -38,6 +38,6 @@ body {
 }
 
 .section-wrapper {
-    margin-block: 46px;
+    margin-block: 100px;
     padding-inline: 16px;
 }

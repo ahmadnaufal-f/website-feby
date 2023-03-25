@@ -1,0 +1,39 @@
+:root {
+    --bg-gray: #dad6d8;
+}
+
+.points-card {
+    width: 840px;
+    height: 320px;
+    margin: 0 auto;
+    padding: 18px 36px 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-default);
+    border: 1px solid var(--pink-bright-1);
+    border-radius: 20px;
+    box-shadow: 4px 10px 15px -2px rgba(0, 0, 0, 0.1);
+    font-family: 'montserrat';
+}
+
+.points-top {
+    font-size: 1.2em;
+    color: var(--text-color);
+    font-weight: 600;
+    line-height: 30px;
+    margin-block-end: 12px;
+}
+
+
+@media screen and (max-width:992px) {
+    .points-card {
+        width: 320px;
+        height: 400px;
+        padding: 20px 12px 20px;
+    }
+
+    .points-top {
+        font-size: 1.1em;
+    }
+}

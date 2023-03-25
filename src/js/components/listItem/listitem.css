@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'billabong';
+    src: url('../../../res/Billabong.ttf') format('truetype');
+}
+
+.points-pane {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.points-left-desktop {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.points-left-items {
+    border-radius: 10px;
+    position: relative;
+    margin-inline-end: 20px;
+    padding-inline: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    cursor: pointer;
+}
+
+.points-left-items>svg {
+    color: var(--subtext-color);
+}
+
+.points-left-items>svg:last-child {
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--pink-dark);
+}
+
+.points-left-items[data-is-active="false"]:hover {
+    background-color: var(--bg-gray);
+}
+
+.points-left-text {
+    width: calc(100% - 36px);
+    margin-inline-start: 10px;
+    color: var(--subtext-color);
+    font-weight: 400;
+}
+
+.points-left-text .bold {
+    font-weight: 600;
+}
+
+.points-left-items[data-is-active="true"] .points-left-text,
+.points-left-items[data-is-active="true"] svg:first-child {
+    color: var(--pink-dark);
+}
+
+.points-left-items[data-is-active="true"] .bold {
+    font-weight: 600;
+}
+
+.points-active-bg {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: calc(100% - 20px);
+    height: 40px;
+    border-radius: 10px;
+    background-color: var(--pink-bright-1);
+    transition: all 0.2s ease-in-out;
+}
+
+.points-right {
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+    background-color: var(--pink-bright-2);
+    overflow: hidden;
+    border: solid 1px var(--pink-bright-1);
+    box-shadow: 0 0 10px 0 rgba(169, 90, 99, 0.3);
+}
+
+.points-sosmed {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.points-sosmed:first-of-type {
+    margin-block-end: 20px;
+}
+
+.points-instagram-title {
+    font-family: 'billabong';
+    font-size: 1.5em;
+    line-height: 24px;
+    color: var(--text-color);
+}
+
+.points-tiktok-title {
+    font-size: 1em;
+    font-weight: 800;
+    color: var(--text-color);
+}
+
+.points-sosmed-value {
+    font-size: 1.2em;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.points-sosmed-text {
+    font-size: 0.8em;
+    color: var(--subtext-color);
+    font-weight: 400;
+}
+
+.points-tag {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.points-tag-title {
+    color: var(--pink-darker);
+    font-weight: 600;
+}
+
+.points-tag-subtitle {
+    color: var(--pink-dark);
+    font-weight: 400;
+    text-align: center;
+    font-size: .8em;
+}
+
+.points-left-mobile {
+    display: none;
+}
+
+.points-left-mobile>svg {
+    width: 20px;
+    height: 20px;
+    color: var(--pink-dark);
+}
+
+.points-pane[data-active-index="0"] .points-left-mobile>svg:first-child,
+.points-pane[data-active-index="2"] .points-left-mobile>svg:last-child {
+    color: var(--pink-bright-1);
+}
+
+@media screen and (max-width:992px) {
+    .points-pane {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .points-left-desktop {
+        display: none;
+    }
+
+    .points-left-mobile {
+        display: flex;
+        width: 280px;
+        height: 80px;
+        position: relative;
+        align-items: center;
+    }
+}

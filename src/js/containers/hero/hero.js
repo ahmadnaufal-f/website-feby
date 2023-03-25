@@ -31,7 +31,7 @@ function Hero() {
             const transform = `translateY(${posY}px) scale(${scale})`;
             myRef.current.style.transform = transform;
         }
-    }, [posY]);
+    }, [posY, scale]);
 
     return (
         <section id="hero">
