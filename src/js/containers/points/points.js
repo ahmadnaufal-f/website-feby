@@ -21,7 +21,7 @@ function Points() {
         },
     ];
     return (
-        <Slide>
+        <Slide triggerOnce={true}>
             <div id="portfolio" className="section-wrapper d-flex">
                 <div className="points-card">
                     <div className="points-top">Find out why brands choose me</div>
