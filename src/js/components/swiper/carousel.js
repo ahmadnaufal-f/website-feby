@@ -7,7 +7,7 @@ function Carousel(props) {
     const classFamily = props.classFamily;
     const onSwiperFunction = props.onSwiperFunction;
     return (
-        <Swiper modules={[Navigation, Pagination]} pagination={props.pagination} navigation onSwiper={onSwiperFunction}>
+        <Swiper modules={[Navigation, Pagination]} pagination={props.pagination} navigation onSwiper={onSwiperFunction} slidesPerView={props.slidesPerView}>
             {items.map((item, index) => {
                 return (
                     <SwiperSlide key={index}>

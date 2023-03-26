@@ -4,6 +4,7 @@ import Intro from "../intro/intro";
 import Brands from "../brands/brands";
 import Roles from "../roles/roles";
 import Points from "../points/points";
+import Gallery from "../gallery/gallery";
 
 function Main() {
     return (
@@ -14,6 +15,7 @@ function Main() {
             <Brands />
             <Roles />
             <Points />
+            <Gallery />
         </>
     );
 }
