@@ -93,6 +93,7 @@
     }
 
     .gallery-slide {
+        height: 648px;
         padding: 12px 0;
     }
 }

@@ -27,6 +27,7 @@
     align-items: center;
     height: 40px;
     cursor: pointer;
+    transition: all 0.5s ease-in-out;
 }
 
 .points-left-items>svg {
@@ -81,7 +82,7 @@
     width: 220px;
     height: 220px;
     border-radius: 20px;
-    background-color: var(--pink-bright-2);
+    background-color: var(--bg-default);
     overflow: hidden;
     border: solid 1px var(--pink-bright-1);
     box-shadow: 0 0 10px 0 rgba(169, 90, 99, 0.3);
@@ -111,8 +112,8 @@
 }
 
 .points-sosmed-value {
-    font-size: 1.2em;
-    color: var(--text-color);
+    font-size: 1.4em;
+    color: var(--pink-darker);
     font-weight: 600;
 }
 

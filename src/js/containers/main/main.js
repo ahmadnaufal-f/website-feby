@@ -5,6 +5,9 @@ import Brands from "../brands/brands";
 import Roles from "../roles/roles";
 import Points from "../points/points";
 import Gallery from "../gallery/gallery";
+import Footer from "../footer/footer";
+import GoToTop from "../../components/button/gototop";
+import Closing from "../closing/closing";
 
 function Main() {
     return (
@@ -16,6 +19,9 @@ function Main() {
             <Roles />
             <Points />
             <Gallery />
+            <Closing />
+            <Footer />
+            <GoToTop />
         </>
     );
 }

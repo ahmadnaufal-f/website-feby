@@ -1,0 +1,19 @@
+.footer {
+    width: 100%;
+    background-color: var(--pink-dark);
+}
+
+.footer-content {
+    width: 100%;
+    padding: .8rem 0;
+    display: grid;
+    place-content: center;
+}
+
+.footer-content p {
+    font-family: 'montserrat';
+    color: var(--white);
+    font-size: .9rem;
+    font-weight: 300;
+    margin: 0 auto;
+}

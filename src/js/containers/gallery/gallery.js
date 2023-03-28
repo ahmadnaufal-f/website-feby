@@ -1,10 +1,11 @@
 import { InstagramEmbed } from "react-social-media-embed";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretLeft, faCaretRight } from "@fortawesome/free-solid-svg-icons";
 import { Slide } from "react-awesome-reveal";
 import "./gallery.css";
 import Carousel from "../../components/swiper/carousel";
+import Loading from "../../components/loading/loading";
 
 function Gallery() {
     const urls = [
@@ -88,10 +89,15 @@ function Gallery() {
     );
 }
 
+const renderLoader = () => <Loading />;
+
 function PostSlide({ src }) {
     return (
         <div className="gallery-slide">
-            <InstagramEmbed url={src} width={380} />
+            <Suspense fallback={renderLoader()}>
+                <InstagramEmbed url={src} width={380} embedPlaceholder={renderLoader()} />
+            </Suspense>
+            {/* {renderLoader()} */}
         </div>
     );
 }
