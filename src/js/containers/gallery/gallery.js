@@ -9,7 +9,8 @@ import Loading from "../../components/loading/loading";
 
 function Gallery() {
     const urls = [
-        "https://www.instagram.com/p/Ci4jpAZvJHo/",
+        "https://www.instagram.com/p/CqfKU-uPlpb/",
+        // "https://www.instagram.com/p/Ci4jpAZvJHo/",
         "https://www.instagram.com/p/CpHI7-mvMc5/",
         "https://www.instagram.com/p/CiU4qwfv9Bp/",
         "https://www.instagram.com/p/CmoMTXEvIjl/",
