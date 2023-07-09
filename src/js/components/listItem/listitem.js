@@ -90,7 +90,7 @@ function PointsFollowers() {
         <div className="d-flex align-items-center justify-items-center flex-column" style={{ padding: "28px" }}>
             <div className="points-sosmed">
                 <div className="points-instagram-title">Instagram</div>
-                <div className="points-sosmed-value">4.2K</div>
+                <div className="points-sosmed-value">4.3K</div>
                 <div className="points-sosmed-text">Followers</div>
             </div>
             <div className="points-sosmed">

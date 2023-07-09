@@ -7,7 +7,7 @@ function Closing() {
     const waHref = "https://wa.me/6289655939257";
 
     return (
-        <Slide triggerOnce={true} className="section-wrapper">
+        <Slide triggerOnce={true} className="section-wrapper short">
             <div className="closing-wrapper">
                 <div className="closing-left">
                     <div className="closing-text">Ready to collaborate with me?</div>

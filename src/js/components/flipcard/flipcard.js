@@ -3,13 +3,15 @@ import { Slide } from "react-awesome-reveal";
 
 function FlipCard({ role, id }) {
     const onShow = (inView) => {
-        const cards = document.querySelectorAll(".flip-card");
-        setTimeout(() => {
-            cards[id].classList.add("active");
+        requestAnimationFrame(() => {
+            const cards = document.querySelectorAll(".flip-card");
             setTimeout(() => {
-                cards[id].classList.remove("active");
+                cards[id].classList.add("active");
+                setTimeout(() => {
+                    cards[id].classList.remove("active");
+                }, 1000);
             }, 1000);
-        }, 1000);
+        });
     };
 
     return (

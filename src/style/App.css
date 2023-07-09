@@ -38,6 +38,10 @@ body {
 }
 
 .section-wrapper {
-    margin-block: 100px;
+    margin-block: 200px;
     padding-inline: 16px;
+}
+
+.section-wrapper.short {
+    margin-block-end: 100px;
 }
