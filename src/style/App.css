@@ -1,22 +1,22 @@
 @font-face {
-    font-family: 'dafoe';
-    src: url('../res/MrDafoe-Regular.ttf') format('truetype');
+    font-family: "dafoe";
+    src: url("../res/MrDafoe-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'montserrat';
-    src: url('../res/Montserrat-Regular.ttf') format('truetype');
+    font-family: "montserrat";
+    src: url("../res/Montserrat-Regular.ttf") format("truetype");
 }
 
 :root {
     --white: #ffffff;
     --bg-default: #f1f2f3;
-    --pink-dark: #A95A63;
+    --pink-dark: #a95a63;
     --pink-darker: #863e47;
-    --pink-bright-1: #E1CADE;
+    --pink-bright-1: #e1cade;
     --pink-bright-2: #ece8ec;
-    --pink-selected: #6A2E56;
-    --text-color: #171b17;
+    --pink-selected: #6a2e56;
+    --text-color: #3d2b2e;
     --subtext-color: #6b6b6b;
     --green: #4e8375;
     --green-darker: #2e6b59;
